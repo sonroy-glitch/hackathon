@@ -18,7 +18,7 @@ const TenderView = () => {
   useEffect(() => {
     async function fetchSummary() {
       try {
-        const response = await axios.post("http://localhost:3000/summarize", {
+        const response = await axios.post("https://hackathon-wheat-xi.vercel.app/summarize", {
           url,
         });
         setSummary(response.data);
@@ -32,7 +32,7 @@ const TenderView = () => {
   async function run() {
     setLoadingQAA(true);
     try {
-      const response = await axios.post("http://localhost:3000/qaaFeature", {
+      const response = await axios.post("https://hackathon-wheat-xi.vercel.app/qaaFeature", {
         url,
         question,
       });

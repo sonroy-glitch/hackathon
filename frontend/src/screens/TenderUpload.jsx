@@ -53,7 +53,7 @@ const TenderUpload = () => {
       );
 
       setUploadUrl(response.data.secure_url);
-      const response1= await axios.post("http://localhost:3000/tender",{
+      const response1= await axios.post("https://hackathon-wheat-xi.vercel.app/tender",{
         tenderLink:response.data.secure_url,
         buyerId:rfq.buyer.id,
         vendorId:userData.id,

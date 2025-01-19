@@ -18,7 +18,7 @@ const Dashboard = () => {
   useEffect(() => {
     async function call() {
       const token = localStorage.getItem("token");
-      const response = await axios.get("http://localhost:3000/verify", {
+      const response = await axios.get("https://hackathon-wheat-xi.vercel.app/verify", {
         headers: { token },
       });
       localStorage.setItem("user", JSON.stringify(response.data.user));

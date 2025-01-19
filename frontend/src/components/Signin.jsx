@@ -18,7 +18,7 @@ const Signin = () => {
   async function signin() {
     setIsLoading(true); // Start loading
     try {
-      const response = await axios.post("http://localhost:3000/signin", {
+      const response = await axios.post("https://hackathon-wheat-xi.vercel.app/signin", {
         email,
         password,
         type,

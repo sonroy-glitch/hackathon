@@ -43,7 +43,7 @@ const RfqGeneratorEx = () => {
     try {
       setLoading(true);
       setError(null);
-      const response = await axios.post("http://localhost:3000/rfqGenerator", {
+      const response = await axios.post("https://hackathon-wheat-xi.vercel.app/rfqGenerator", {
         rfqData,
       });
       setData(response.data);

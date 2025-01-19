@@ -13,7 +13,7 @@ const About = () => {
 
   const handleUpdate = async () => {
     const token = localStorage.getItem('token');
-    const response = await axios.post("http://localhost:3000/about", {
+    const response = await axios.post("https://hackathon-wheat-xi.vercel.app/about", {
       about: aboutText
     }, {
       headers: { token }

@@ -22,7 +22,7 @@ const Signup = () => {
   async function signup() {
     setIsLoading(true);
     
-      const response = await axios.post("http://localhost:3000/signup", {
+      const response = await axios.post("https://hackathon-wheat-xi.vercel.app/signup", {
         name,
         email,
         password,
