@@ -39,3 +39,12 @@ Additionally, install required dependencies:
 
 -3.Chatbot based on Tenders Ideas
     -This is trained on the tender data recieved from the vendor and is able to answer any questions smoothly.
+
+
+## IMPORTANT
+   - IN order to upload documents login as a vendor and within he vendor there is review rfqs options. On clicking that you will recieve a option to upload tenders.
+
+## SAMPLE USERNAMES
+    -email -rsounak55@gmail.com
+    -password- sounak1435
+    
