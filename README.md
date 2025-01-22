@@ -1,3 +1,10 @@
+## IMPORTANT
+   - IN order to upload documents login as a vendor and within he vendor there is review rfqs options. On clicking that you will recieve a option to upload tenders.
+
+## SAMPLE USERNAMES
+    -email -rsounak55@gmail.com
+    -password- sounak1435
+    
 # AI Integration for Streamlining RFQ Creation and Tender Document Summarization
 
 ## Objective
@@ -41,10 +48,5 @@ Additionally, install required dependencies:
     -This is trained on the tender data recieved from the vendor and is able to answer any questions smoothly.
 
 
-## IMPORTANT
-   - IN order to upload documents login as a vendor and within he vendor there is review rfqs options. On clicking that you will recieve a option to upload tenders.
 
-## SAMPLE USERNAMES
-    -email -rsounak55@gmail.com
-    -password- sounak1435
     
