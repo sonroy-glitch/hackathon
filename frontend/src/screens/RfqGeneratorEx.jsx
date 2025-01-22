@@ -63,7 +63,7 @@ const RfqGeneratorEx = () => {
       const buyerId = user.id;
       const vendorId = vendorHold.id;
       const response = await axios.post(
-        "http://localhost:3000/rfq",
+        "https://hackathon-wheat-xi.vercel.app/rfq",
         {
           rfqData: data.answer,
           buyerId,
