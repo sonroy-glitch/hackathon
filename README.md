@@ -1,7 +1,7 @@
 ## IMPORTANT
    - IN order to upload documents login as a vendor and within he vendor there is review rfqs options. On clicking that you will recieve a option to upload tenders.
 
-## SAMPLE USERNAMES
+## SAMPLE USERNAMES ( Login as Buyer )
     -email -rsounak55@gmail.com
     -password- sounak1435
     
