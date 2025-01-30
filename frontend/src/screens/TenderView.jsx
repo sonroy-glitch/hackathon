@@ -17,6 +17,7 @@ const TenderView = () => {
 
   useEffect(() => {
     async function fetchSummary() {
+        setLoadingSummary(true);
       try {
         const response = await axios.post("https://hackathon-wheat-xi.vercel.app/summarize", {
           url,
@@ -25,6 +26,7 @@ const TenderView = () => {
       } catch (error) {
         console.error("Error fetching summary:", error.message);
       }
+       setLoadingSummary(false);
     }
     fetchSummary();
   }, []);
@@ -66,9 +68,9 @@ const TenderView = () => {
         <button
           className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md mb-4"
           onClick={() => {
-            setLoadingSummary(true);
+          
             setSummaryView(true);
-            setLoadingSummary(false);
+           
           }}
         >
           Summarize
